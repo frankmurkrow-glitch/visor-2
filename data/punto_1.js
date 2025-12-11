@@ -1,9 +1,0 @@
-var json_punto_1 = {
-"type": "FeatureCollection",
-"name": "punto",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::25830" } },
-"features": [
-{ "type": "Feature", "properties": { "fid": 1, "campo": 8 }, "geometry": { "type": "Point", "coordinates": [ 221937.147120215231553, 4099216.713145872112364 ] } },
-{ "type": "Feature", "properties": { "fid": 1, "campo": 8 }, "geometry": { "type": "Point", "coordinates": [ -6.124629753976566, 36.998007280107828 ] } }
-]
-}
