@@ -351,9 +351,8 @@
 				    <tr>\
                    <th scope="row">Foto</th>
                    <td>' + (feature.properties['foto'] !== null ? '<img src="' + feature.properties['foto'] + '" alt="Foto" style="max-width:200px; max-height:150px;">' : '') + '
-                   </td>\
-                   <tr>\
-                </table>';
+                   </tr>\
+               </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
 			layer.on('popupopen', function(e) {
 				addClassToPopupIfMedia(content, e.popup);
