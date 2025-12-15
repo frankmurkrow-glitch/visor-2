@@ -348,6 +348,11 @@
                         <th scope="row">Observaciones</th>\
                         <td class="visible-with-data" id="Observaciones">' + (feature.properties['Observaciones'] !== null ? autolinker.link(String(feature.properties['Observaciones']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
+				     <tr>
+                   <th scope="row">Foto</th>
+                   <td>' + (feature.properties['foto'] !== null ? '<img src="' + feature.properties['foto'] + '" alt="Foto" style="max-width:200px; max-height:150px;">' : '') + '
+                   </td>
+                   </tr>
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
 			layer.on('popupopen', function(e) {
